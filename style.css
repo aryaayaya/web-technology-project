@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    min-width: 1200px;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    background: black;
+    padding: 15px 0;
+}
+
+.logo {
+    color: rgb(1, 54, 76);
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    color: rgb(56, 189, 248);
+}
+
+.hero {
+    background: rgb(1, 54, 76);
+    color: white;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn {
+    background: ;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background: rgb(56, 189, 248);
+}
+
+
+.features {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.feature-box {
+    display: inline-block;
+    background: white;
+    width: 260px;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    border: 2px solid rgb(3, 68, 96);
+}
+
+.feature-box h3 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.account{
+    background: rgb(1, 54, 76);
+    color: white;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.account h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer {
+    background: black;
+    color: #9ca3af;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    background:
+}
+/* Disable Mobile View */
+@media (max-width: 1024px) {
+    body {
+        display: none;
+    }
+}
