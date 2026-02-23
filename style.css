@@ -145,7 +145,7 @@ body {
     text-align: center;
     background:
 }
-/* Disable Mobile View */
+
 @media (max-width: 768px) {
     .nav-links {
         flex-direction: column;
